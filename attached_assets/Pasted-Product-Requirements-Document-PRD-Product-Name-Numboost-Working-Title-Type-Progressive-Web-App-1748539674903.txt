@@ -1,0 +1,151 @@
+Product Requirements Document (PRD)
+Product Name: Numboost (Working Title)
+Type: Progressive Web App (PWA)
+Target Platforms: iOS and Android (installable via browser)
+Offline-Capable: Yes
+
+1. Overview
+Numboost is a lightweight, offline-friendly Progressive Web App designed to help users of all ages and abilities improve their mental math skills. It focuses on addition, subtraction, multiplication, division, and percentages, while offering customized practice, progress tracking, and engaging methods based on modern cognitive science.
+
+2. Goals
+Improve users' ability to perform mental arithmetic confidently.
+
+Offer deep customization to focus on individual weaknesses and goals.
+
+Make practice fun, engaging, and effective, especially for those who struggle with numbers.
+
+Run entirely offline after installation.
+
+Support audio-only practice to build numeric visualization skills.
+
+3. Core Features
+3.1 Practice Modules
+Operation Types:
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division
+
+Percentages
+
+Multi-Step Calculations: Option to solve expressions like 5 × 7 − 3 + 56, with correct order of operations (PEMDAS/BODMAS).
+
+Practice Modes:
+
+Timed Practice – Beat the clock while staying accurate.
+
+Accuracy Mode – Focus on careful calculation without time pressure.
+
+Audio-Only Mode – The app dictates calculations (e.g., “twelve times three minus five”), and the user inputs the result without visual cues.
+
+Customization Options:
+
+Choose specific operations (e.g., only subtraction and percentages).
+
+Select number ranges (e.g., 1–10, 10–1000).
+
+Choose problem quantity or session duration.
+
+Define difficulty settings:
+
+Carrying/borrowing
+
+Decimals
+
+Negative numbers
+
+Multi-step or single-step
+
+Mixed operation types in one problem
+
+3.2 Progress Tracking
+Track performance over time for each operation type.
+
+Weekly and monthly progress graphs.
+
+Achievement badges (e.g., “100 problems without an error”).
+
+Visual mastery dashboard with heatmap of strengths and weaknesses.
+
+Optional local storage or exportable progress reports (CSV/PDF).
+
+3.3 Engagement & Learning Methods
+Based on cognitive science principles:
+
+Spaced repetition for long-term retention.
+
+Chunking and number pattern recognition.
+
+Dual coding theory: Pair audio and visual learning modes.
+
+Cognitive load management: Adaptive difficulty based on user performance.
+
+Lightweight animations and sound effects for motivation.
+
+Dark/light mode, minimal UI distractions.
+
+3.4 Audio-Only Mode (Bonus Feature)
+User hears a spoken math problem.
+
+No visual display of the problem.
+
+User inputs the result mentally, strengthening memory, focus, and visualization.
+
+Supports single-step and multi-step expressions.
+
+Optional voice feedback.
+
+4. Technical Requirements
+Technology:
+
+Progressive Web App with responsive design
+
+Built with offline-first architecture (Service Workers + local storage or IndexedDB)
+
+Platform Support:
+
+iOS (via Safari, installable to Home Screen)
+
+Android (via Chrome, installable to Home Screen)
+
+No sign-up/login required (optional account for syncing if implemented in future)
+
+Fast loading (<1s), small footprint (<10 MB install target)
+
+5. UI/UX Guidelines
+Minimalist and intuitive interface
+
+Accessible fonts and color schemes (toggle dyslexia/dyscalculia-friendly mode)
+
+Large tap targets and swipe gestures
+
+Visual feedback (e.g., color-coded results, sounds)
+
+Gamification elements optional and non-distracting
+
+6. Stretch Features (Optional/Future)
+Voice command to start specific exercises
+
+Leaderboards (local/friend-based only, for privacy)
+
+Social challenges (invite friends to beat your score)
+
+Cloud sync via account login (Google/Apple or anonymous)
+
+7. Success Metrics
+Daily active users (DAU)
+
+Average session time
+
+User improvement rate (via performance delta over time)
+
+Retention rate (7-day and 30-day)
+
+Positive feedback/ratings on install prompt and engagement
+
+Low uninstall rate
+
